@@ -1,6 +1,6 @@
 {
   "name": "cinematch---ai-powered-movie-discovery",
-  "homepages": "https://Deep-code2004.github.io/OMDB-API---Example/",
+  "homepage": "https://Deep-code2004.github.io/omdb-api/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
