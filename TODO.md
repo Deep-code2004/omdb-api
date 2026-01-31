@@ -1,0 +1,7 @@
+- [x] Delete services/geminiService.ts
+- [x] Remove Gemini imports and AI-related code from App.tsx
+- [x] Remove Gemini imports and AI-related code from components/MovieDetails.tsx
+- [x] Remove AIInsight interface from types.ts
+- [x] Remove @google/genai dependency from package.json
+- [x] Run npm install to update dependencies
+- [x] Test the app functionality
