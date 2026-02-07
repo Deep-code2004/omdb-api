@@ -11,7 +11,7 @@ export const searchMovies = async (query: string, page: number = 1): Promise<OMD
 };
 
 export const getMovieDetails = async (id: string): Promise<MovieDetails> => {
-  const response = await fetch(`${BASE_URL}?apikey=${API_KEY}&i=${id}&plot=full`);
+  const response = await fetch(`${BASE_URL}?apikey=${API_KEY}&i=${id}`);
   if (!response.ok) throw new Error('Network response was not ok');
   const data = await response.json();
   if (data.Response === "False") throw new Error(data.Error);

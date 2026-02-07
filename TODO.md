@@ -1,7 +1,3 @@
-- [x] Delete services/geminiService.ts
-- [x] Remove Gemini imports and AI-related code from App.tsx
-- [x] Remove Gemini imports and AI-related code from components/MovieDetails.tsx
-- [x] Remove AIInsight interface from types.ts
-- [x] Remove @google/genai dependency from package.json
-- [x] Run npm install to update dependencies
-- [x] Test the app functionality
+- [x] Modify App.tsx to conditionally render movie details with image, title, description, year, and rating stars in the response section instead of JSON when movieData is available.
+- [x] Add movie suggestions feature: when year is not provided, show multiple movie options with images and years for selection.
+- [x] Test the new suggestions feature by searching without a year and selecting a movie.
